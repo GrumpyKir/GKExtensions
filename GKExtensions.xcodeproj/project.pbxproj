@@ -8,12 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		ED29AE092211AF760035C17A /* GKExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = ED29AE072211AF760035C17A /* GKExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED29AE242211AFE10035C17A /* String+URLQueryValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED29AE102211AFDC0035C17A /* String+URLQueryValue.swift */; };
+		ED29AE252211AFE10035C17A /* UIImageView+ImageColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED29AE112211AFDC0035C17A /* UIImageView+ImageColor.swift */; };
+		ED29AE262211AFE10035C17A /* UIViewController+Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED29AE122211AFDD0035C17A /* UIViewController+Identifier.swift */; };
+		ED29AE272211AFE10035C17A /* UIView+LoadNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED29AE132211AFDD0035C17A /* UIView+LoadNib.swift */; };
+		ED29AE282211AFE10035C17A /* Dictionary+HttpParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED29AE142211AFDD0035C17A /* Dictionary+HttpParameters.swift */; };
+		ED29AE292211AFE10035C17A /* Data+Modify.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED29AE152211AFDE0035C17A /* Data+Modify.swift */; };
+		ED29AE2A2211AFE10035C17A /* String+Origin.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED29AE162211AFDE0035C17A /* String+Origin.swift */; };
+		ED29AE2B2211AFE10035C17A /* UICollectionView+RegisterClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED29AE172211AFDF0035C17A /* UICollectionView+RegisterClasses.swift */; };
+		ED29AE2C2211AFE10035C17A /* UILabel+MaxLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED29AE182211AFDF0035C17A /* UILabel+MaxLines.swift */; };
+		ED29AE2D2211AFE10035C17A /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED29AE192211AFDF0035C17A /* String+Validation.swift */; };
+		ED29AE2E2211AFE10035C17A /* UITableView+RegisterClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED29AE1A2211AFE00035C17A /* UITableView+RegisterClasses.swift */; };
+		ED29AE2F2211AFE10035C17A /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED29AE1B2211AFE00035C17A /* UIImage+Resize.swift */; };
+		ED29AE302211AFE10035C17A /* Date+Modify.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED29AE1C2211AFE00035C17A /* Date+Modify.swift */; };
+		ED29AE312211AFE10035C17A /* NSAttributedString+RenderImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED29AE1D2211AFE00035C17A /* NSAttributedString+RenderImage.swift */; };
+		ED29AE322211AFE10035C17A /* Data+MimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED29AE1E2211AFE00035C17A /* Data+MimeType.swift */; };
+		ED29AE332211AFE10035C17A /* Date+LocalCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED29AE1F2211AFE00035C17A /* Date+LocalCalendar.swift */; };
+		ED29AE342211AFE10035C17A /* UIApplication+TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED29AE202211AFE10035C17A /* UIApplication+TopViewController.swift */; };
+		ED29AE352211AFE10035C17A /* UIStackView+RemoveAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED29AE212211AFE10035C17A /* UIStackView+RemoveAll.swift */; };
+		ED29AE362211AFE10035C17A /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED29AE222211AFE10035C17A /* UIColor+Hex.swift */; };
+		ED29AE372211AFE10035C17A /* String+Modify.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED29AE232211AFE10035C17A /* String+Modify.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ED29AE042211AF760035C17A /* GKExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GKExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED29AE072211AF760035C17A /* GKExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKExtensions.h; sourceTree = "<group>"; };
 		ED29AE082211AF760035C17A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED29AE102211AFDC0035C17A /* String+URLQueryValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URLQueryValue.swift"; sourceTree = "<group>"; };
+		ED29AE112211AFDC0035C17A /* UIImageView+ImageColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+ImageColor.swift"; sourceTree = "<group>"; };
+		ED29AE122211AFDD0035C17A /* UIViewController+Identifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Identifier.swift"; sourceTree = "<group>"; };
+		ED29AE132211AFDD0035C17A /* UIView+LoadNib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+LoadNib.swift"; sourceTree = "<group>"; };
+		ED29AE142211AFDD0035C17A /* Dictionary+HttpParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+HttpParameters.swift"; sourceTree = "<group>"; };
+		ED29AE152211AFDE0035C17A /* Data+Modify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Modify.swift"; sourceTree = "<group>"; };
+		ED29AE162211AFDE0035C17A /* String+Origin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Origin.swift"; sourceTree = "<group>"; };
+		ED29AE172211AFDF0035C17A /* UICollectionView+RegisterClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+RegisterClasses.swift"; sourceTree = "<group>"; };
+		ED29AE182211AFDF0035C17A /* UILabel+MaxLines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+MaxLines.swift"; sourceTree = "<group>"; };
+		ED29AE192211AFDF0035C17A /* String+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Validation.swift"; sourceTree = "<group>"; };
+		ED29AE1A2211AFE00035C17A /* UITableView+RegisterClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+RegisterClasses.swift"; sourceTree = "<group>"; };
+		ED29AE1B2211AFE00035C17A /* UIImage+Resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
+		ED29AE1C2211AFE00035C17A /* Date+Modify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Modify.swift"; sourceTree = "<group>"; };
+		ED29AE1D2211AFE00035C17A /* NSAttributedString+RenderImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+RenderImage.swift"; sourceTree = "<group>"; };
+		ED29AE1E2211AFE00035C17A /* Data+MimeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+MimeType.swift"; sourceTree = "<group>"; };
+		ED29AE1F2211AFE00035C17A /* Date+LocalCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+LocalCalendar.swift"; sourceTree = "<group>"; };
+		ED29AE202211AFE10035C17A /* UIApplication+TopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+TopViewController.swift"; sourceTree = "<group>"; };
+		ED29AE212211AFE10035C17A /* UIStackView+RemoveAll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+RemoveAll.swift"; sourceTree = "<group>"; };
+		ED29AE222211AFE10035C17A /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		ED29AE232211AFE10035C17A /* String+Modify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Modify.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,8 +88,36 @@
 			children = (
 				ED29AE072211AF760035C17A /* GKExtensions.h */,
 				ED29AE082211AF760035C17A /* Info.plist */,
+				ED29AE0F2211AFB90035C17A /* SourceData */,
 			);
 			path = GKExtensions;
+			sourceTree = "<group>";
+		};
+		ED29AE0F2211AFB90035C17A /* SourceData */ = {
+			isa = PBXGroup;
+			children = (
+				ED29AE1E2211AFE00035C17A /* Data+MimeType.swift */,
+				ED29AE152211AFDE0035C17A /* Data+Modify.swift */,
+				ED29AE1F2211AFE00035C17A /* Date+LocalCalendar.swift */,
+				ED29AE1C2211AFE00035C17A /* Date+Modify.swift */,
+				ED29AE142211AFDD0035C17A /* Dictionary+HttpParameters.swift */,
+				ED29AE1D2211AFE00035C17A /* NSAttributedString+RenderImage.swift */,
+				ED29AE232211AFE10035C17A /* String+Modify.swift */,
+				ED29AE162211AFDE0035C17A /* String+Origin.swift */,
+				ED29AE102211AFDC0035C17A /* String+URLQueryValue.swift */,
+				ED29AE192211AFDF0035C17A /* String+Validation.swift */,
+				ED29AE202211AFE10035C17A /* UIApplication+TopViewController.swift */,
+				ED29AE172211AFDF0035C17A /* UICollectionView+RegisterClasses.swift */,
+				ED29AE222211AFE10035C17A /* UIColor+Hex.swift */,
+				ED29AE1B2211AFE00035C17A /* UIImage+Resize.swift */,
+				ED29AE112211AFDC0035C17A /* UIImageView+ImageColor.swift */,
+				ED29AE182211AFDF0035C17A /* UILabel+MaxLines.swift */,
+				ED29AE212211AFE10035C17A /* UIStackView+RemoveAll.swift */,
+				ED29AE1A2211AFE00035C17A /* UITableView+RegisterClasses.swift */,
+				ED29AE132211AFDD0035C17A /* UIView+LoadNib.swift */,
+				ED29AE122211AFDD0035C17A /* UIViewController+Identifier.swift */,
+			);
+			path = SourceData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +142,7 @@
 				ED29AE002211AF760035C17A /* Sources */,
 				ED29AE012211AF760035C17A /* Frameworks */,
 				ED29AE022211AF760035C17A /* Resources */,
+				ED29AE382211B2510035C17A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -95,6 +164,7 @@
 				TargetAttributes = {
 					ED29AE032211AF760035C17A = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -125,11 +195,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ED29AE382211B2510035C17A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ED29AE002211AF760035C17A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED29AE272211AFE10035C17A /* UIView+LoadNib.swift in Sources */,
+				ED29AE332211AFE10035C17A /* Date+LocalCalendar.swift in Sources */,
+				ED29AE302211AFE10035C17A /* Date+Modify.swift in Sources */,
+				ED29AE2D2211AFE10035C17A /* String+Validation.swift in Sources */,
+				ED29AE292211AFE10035C17A /* Data+Modify.swift in Sources */,
+				ED29AE252211AFE10035C17A /* UIImageView+ImageColor.swift in Sources */,
+				ED29AE312211AFE10035C17A /* NSAttributedString+RenderImage.swift in Sources */,
+				ED29AE322211AFE10035C17A /* Data+MimeType.swift in Sources */,
+				ED29AE342211AFE10035C17A /* UIApplication+TopViewController.swift in Sources */,
+				ED29AE2A2211AFE10035C17A /* String+Origin.swift in Sources */,
+				ED29AE2F2211AFE10035C17A /* UIImage+Resize.swift in Sources */,
+				ED29AE352211AFE10035C17A /* UIStackView+RemoveAll.swift in Sources */,
+				ED29AE2B2211AFE10035C17A /* UICollectionView+RegisterClasses.swift in Sources */,
+				ED29AE2E2211AFE10035C17A /* UITableView+RegisterClasses.swift in Sources */,
+				ED29AE362211AFE10035C17A /* UIColor+Hex.swift in Sources */,
+				ED29AE2C2211AFE10035C17A /* UILabel+MaxLines.swift in Sources */,
+				ED29AE372211AFE10035C17A /* String+Modify.swift in Sources */,
+				ED29AE262211AFE10035C17A /* UIViewController+Identifier.swift in Sources */,
+				ED29AE282211AFE10035C17A /* Dictionary+HttpParameters.swift in Sources */,
+				ED29AE242211AFE10035C17A /* String+URLQueryValue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +371,7 @@
 		ED29AE0D2211AF760035C17A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -270,14 +381,16 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GKExtensions/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = AppCraft.GKExtensions;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gkextensions.lib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,6 +399,7 @@
 		ED29AE0E2211AF760035C17A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -295,12 +409,13 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GKExtensions/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = AppCraft.GKExtensions;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gkextensions.lib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
