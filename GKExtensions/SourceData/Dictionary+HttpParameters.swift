@@ -10,7 +10,7 @@ import Foundation
 
 public extension Dictionary {
     
-    public func stringFromHttpParameters() -> String {
+    func stringFromHttpParameters() -> String {
         let parameterArray = self.map { key, value -> String in
             var percentEscapedKey: String
             if let keyString = key as? String {

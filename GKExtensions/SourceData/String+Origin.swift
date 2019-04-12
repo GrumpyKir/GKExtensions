@@ -6,16 +6,15 @@
 //  Copyright © 2019 AppCraft. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 public extension String {
     
-    public static func className(_ aClass: AnyClass) -> String {
+    static func className(_ aClass: AnyClass) -> String {
         return NSStringFromClass(aClass).components(separatedBy: ".").last ?? ""
     }
     
-    public var localized: String {
+    var localized: String {
         return NSLocalizedString(self, comment: "")
     }
     

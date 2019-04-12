@@ -6,18 +6,17 @@
 //  Copyright © 2019 AppCraft. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 public extension UICollectionView {
     
-    public func registerCellClass(_ cellClass: AnyClass) {
+    func registerCellClass(_ cellClass: AnyClass) {
         let identifier = String.className(cellClass)
         
         self.register(cellClass, forCellWithReuseIdentifier: identifier)
     }
     
-    public func registerCellNib(_ cellClass: AnyClass) {
+    func registerCellNib(_ cellClass: AnyClass) {
         let identifier = String.className(cellClass)
         let nib = UINib(nibName: identifier, bundle: nil)
         

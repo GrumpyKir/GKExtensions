@@ -28,6 +28,8 @@
 		ED29AE352211AFE10035C17A /* UIStackView+RemoveAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED29AE212211AFE10035C17A /* UIStackView+RemoveAll.swift */; };
 		ED29AE362211AFE10035C17A /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED29AE222211AFE10035C17A /* UIColor+Hex.swift */; };
 		ED29AE372211AFE10035C17A /* String+Modify.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED29AE232211AFE10035C17A /* String+Modify.swift */; };
+		ED2E8A0A2260868D00E44849 /* UITableViewCell+Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2E8A092260868D00E44849 /* UITableViewCell+Identifier.swift */; };
+		ED2E8A0C226086C400E44849 /* UICollectionViewCell+Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2E8A0B226086C400E44849 /* UICollectionViewCell+Identifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,8 @@
 		ED29AE212211AFE10035C17A /* UIStackView+RemoveAll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+RemoveAll.swift"; sourceTree = "<group>"; };
 		ED29AE222211AFE10035C17A /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 		ED29AE232211AFE10035C17A /* String+Modify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Modify.swift"; sourceTree = "<group>"; };
+		ED2E8A092260868D00E44849 /* UITableViewCell+Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Identifier.swift"; sourceTree = "<group>"; };
+		ED2E8A0B226086C400E44849 /* UICollectionViewCell+Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Identifier.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,12 +112,14 @@
 				ED29AE192211AFDF0035C17A /* String+Validation.swift */,
 				ED29AE202211AFE10035C17A /* UIApplication+TopViewController.swift */,
 				ED29AE172211AFDF0035C17A /* UICollectionView+RegisterClasses.swift */,
+				ED2E8A0B226086C400E44849 /* UICollectionViewCell+Identifier.swift */,
 				ED29AE222211AFE10035C17A /* UIColor+Hex.swift */,
 				ED29AE1B2211AFE00035C17A /* UIImage+Resize.swift */,
 				ED29AE112211AFDC0035C17A /* UIImageView+ImageColor.swift */,
 				ED29AE182211AFDF0035C17A /* UILabel+MaxLines.swift */,
 				ED29AE212211AFE10035C17A /* UIStackView+RemoveAll.swift */,
 				ED29AE1A2211AFE00035C17A /* UITableView+RegisterClasses.swift */,
+				ED2E8A092260868D00E44849 /* UITableViewCell+Identifier.swift */,
 				ED29AE132211AFDD0035C17A /* UIView+LoadNib.swift */,
 				ED29AE122211AFDD0035C17A /* UIViewController+Identifier.swift */,
 			);
@@ -164,7 +170,7 @@
 				TargetAttributes = {
 					ED29AE032211AF760035C17A = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -225,9 +231,11 @@
 				ED29AE302211AFE10035C17A /* Date+Modify.swift in Sources */,
 				ED29AE2D2211AFE10035C17A /* String+Validation.swift in Sources */,
 				ED29AE292211AFE10035C17A /* Data+Modify.swift in Sources */,
+				ED2E8A0A2260868D00E44849 /* UITableViewCell+Identifier.swift in Sources */,
 				ED29AE252211AFE10035C17A /* UIImageView+ImageColor.swift in Sources */,
 				ED29AE312211AFE10035C17A /* NSAttributedString+RenderImage.swift in Sources */,
 				ED29AE322211AFE10035C17A /* Data+MimeType.swift in Sources */,
+				ED2E8A0C226086C400E44849 /* UICollectionViewCell+Identifier.swift in Sources */,
 				ED29AE342211AFE10035C17A /* UIApplication+TopViewController.swift in Sources */,
 				ED29AE2A2211AFE10035C17A /* String+Origin.swift in Sources */,
 				ED29AE2F2211AFE10035C17A /* UIImage+Resize.swift in Sources */,
@@ -391,7 +399,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -418,7 +426,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gkextensions.lib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

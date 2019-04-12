@@ -6,7 +6,6 @@
 //  Copyright © 2019 AppCraft. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 public extension NSAttributedString {
@@ -18,7 +17,7 @@ public extension NSAttributedString {
         return size
     }
     
-    public func renderAsImage(maxWidth: CGFloat) -> UIImage? {
+    func renderAsImage(maxWidth: CGFloat) -> UIImage? {
         let size = self.getCGSize(maxWidth: maxWidth)
         
         UIGraphicsBeginImageContextWithOptions(size, false, 0.0)

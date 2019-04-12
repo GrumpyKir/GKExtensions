@@ -6,12 +6,11 @@
 //  Copyright © 2019 AppCraft. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 public extension UIStackView {
     
-    public func removeAllArrangedSubviews() {
+    func removeAllArrangedSubviews() {
         for subview in self.arrangedSubviews {
             subview.removeFromSuperview()
         }

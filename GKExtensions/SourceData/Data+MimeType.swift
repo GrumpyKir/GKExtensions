@@ -19,7 +19,7 @@ public extension Data {
                                                               0xD0: "application/vnd",
                                                               0x46: "text/plain"]
     
-    public var mimeType: String {
+    var mimeType: String {
         var code: UInt8 = 0
         copyBytes(to: &code, count: 1)
         return Data.mimeTypeSignatures[code] ?? "application/octet-stream"
