@@ -6,12 +6,11 @@
 //  Copyright © 2019 AppCraft. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 public extension UIImage {
     
-    public class func resizeImage(image: UIImage, newHeight: CGFloat) -> UIImage {
+    class func resizeImage(image: UIImage, newHeight: CGFloat) -> UIImage {
         let scale = newHeight / image.size.height
         let newWidth = image.size.width * scale
         

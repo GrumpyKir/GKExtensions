@@ -6,12 +6,11 @@
 //  Copyright © 2019 AppCraft. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 public extension String {
     
-    public func addingPercentEncodingForUrlQueryValue() -> String? {
+    func addingPercentEncodingForUrlQueryValue() -> String? {
         let generalDelimitersToEncode = ":#[]@"
         let subDelimitersToEncode = "!$&'()*+,;="
         

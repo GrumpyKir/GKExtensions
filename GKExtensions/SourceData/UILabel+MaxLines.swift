@@ -6,16 +6,16 @@
 //  Copyright © 2019 AppCraft. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 public extension UILabel {
     
-    public func calculateMaxLines() -> Int {
+    func calculateMaxLines() -> Int {
         let maxSize = CGSize(width: frame.size.width, height: CGFloat(Float.infinity))
         let charSize = font.lineHeight
         let text = (self.text ?? "") as NSString
-        let textSize = text.boundingRect(with: maxSize, options: .usesLineFragmentOrigin, attributes: [.font: font], context: nil)
+        guard let textFont = font else { return 0 }
+        let textSize = text.boundingRect(with: maxSize, options: .usesLineFragmentOrigin, attributes: [.font: textFont], context: nil)
         let lines = Int(textSize.height / charSize)
         
         return lines

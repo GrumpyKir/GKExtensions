@@ -6,12 +6,11 @@
 //  Copyright © 2019 AppCraft. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 public extension UIView {
     
-    public class func loadNib(withOwner owner: Any? = nil) -> Self {
+    class func loadNib(withOwner owner: Any? = nil) -> Self {
         let name = String(describing: type(of: self)).components(separatedBy: ".")[0]
         let view = UINib(nibName: name, bundle: nil).instantiate(withOwner: owner, options: nil)[0]
         
@@ -19,7 +18,7 @@ public extension UIView {
         return cast(view)!
     }
     
-    public func loadFromNibIfEmbeddedInDifferentNib() -> Self {
+    func loadFromNibIfEmbeddedInDifferentNib() -> Self {
         let isPlaceholder = subviews.isEmpty
         if isPlaceholder {
             let realView = type(of: self).loadNib()

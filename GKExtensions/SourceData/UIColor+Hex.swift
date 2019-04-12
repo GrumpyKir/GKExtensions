@@ -6,16 +6,15 @@
 //  Copyright © 2019 AppCraft. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 public extension UIColor {
     
-    public convenience init(hex: String) {
+    convenience init(hex: String) {
         self.init(hex: hex, alpha: 1)
     }
     
-    public convenience init(hex: String, alpha: CGFloat) {
+    convenience init(hex: String, alpha: CGFloat) {
         var hexWithoutSymbol = hex
         
         // TODO: Not working, need to fix
