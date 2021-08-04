@@ -11,42 +11,23 @@ import UIKit
 public extension UIColor {
     
     convenience init(hex: String) {
-        self.init(hex: hex, alpha: 1)
+        self.init(hex: hex, alpha: 1.0)
     }
     
     convenience init(hex: String, alpha: CGFloat) {
-        var hexWithoutSymbol = hex
-        
-        // TODO: Not working, need to fix
-        if hexWithoutSymbol.hasPrefix("#") {
-            guard let sharpIndex = hexWithoutSymbol.firstIndex(of: "#") else {
-                self.init(red: 0,
-                          green: 0,
-                          blue: 0,
-                          alpha: 1)
-                return
-            }
-            hexWithoutSymbol = String(hexWithoutSymbol[sharpIndex...])
-        }
-        
-        let scanner = Scanner(string: hexWithoutSymbol)
-        var hexInt: UInt32 = 0x0
-        scanner.scanHexInt32(&hexInt)
-        
-        var red: UInt32 = 0x0
-        var green: UInt32 = 0x0
-        var blue: UInt32 = 0x0
-        switch hexWithoutSymbol.count {
-        case 3: // #RGB
-            red = ((hexInt >> 4) & 0xf0 | (hexInt >> 8) & 0x0f)
-            green = ((hexInt >> 0) & 0xf0 | (hexInt >> 4) & 0x0f)
-            blue = ((hexInt << 4) & 0xf0 | hexInt & 0x0f)
-        case 6: // #RRGGBB
-            red = (hexInt >> 16) & 0xff
-            green = (hexInt >> 8) & 0xff
-            blue = hexInt & 0xff
+        let hex = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
+        var int: UInt64 = 0
+        Scanner(string: hex).scanHexInt64(&int)
+        let red, green, blue: UInt64
+        switch hex.count {
+        case 3: // RGB (12-bit)
+            (red, green, blue) = ((int >> 8) * 17, (int >> 4 & 0xF) * 17, (int & 0xF) * 17)
+        case 6: // RGB (24-bit)
+            (red, green, blue) = (int >> 16, int >> 8 & 0xFF, int & 0xFF)
+        case 8: // ARGB (32-bit)
+            (red, green, blue) = (int >> 16 & 0xFF, int >> 8 & 0xFF, int & 0xFF)
         default:
-            break
+            (red, green, blue) = (1, 1, 0)
         }
         
         self.init(
